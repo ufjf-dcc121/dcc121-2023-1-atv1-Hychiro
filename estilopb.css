@@ -1,0 +1,23 @@
+
+       header, footer{
+            color: white;
+            padding: 2em 1em;
+            background-color: black;
+        }
+        header li {
+            display: inline;
+            border: solid;
+            padding: 0.5em;
+        }
+        header a{
+            color: brown;
+        }
+        p a{
+            color: blueviolet;
+        }
+        nav li {
+            display:inline;
+            border: solid 1px;
+            padding: 0.5em;
+        }
+    

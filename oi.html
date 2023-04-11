@@ -6,11 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilopb.css">
+    <style>
+        .quadrados {
+            color: green;
+
+        }
+        .paralelepipedos{
+            color: blue;
+        }
+        p > .paralelepipedos{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 
 <body>
-
-    <h1> Document name </h1>
     <header>
         <h1>Links</h1>
         <nav>
@@ -26,30 +37,31 @@
     <div>
         <ul>
             <li>
-                <div>quadrados</div>
-                <ol style="color: darkslategrey;">
-
-                    <li style="color: blue;">numero 1</li>
-                    <li style="color: blue;">numero 2</li>
-                    <li style="color: blue;">numero 3</li>
-                    <li style="color: blue;">numero 4</li>
-                    <li style="color: blue;">numero 5</li>
-                    <li style="color: blue;">numero 6</li>
+                <div>Quadrados</div>
+                <ol >
+                    <li class="quadrados">numero 1</li>
+                    <li class="quadrados">numero 2</li>
+                    <li class="quadrados">numero 3</li>
+                    <li class="quadrados">numero 4</li>
+                    <li class="quadrados">numero 5</li>
+                    <li class="quadrados">numero 6</li>
                 </ol>
             </li>
             <main>
-                <li><p>Paralelepipedos</p>
-
-                    <ul style="color: black;">
-                        <li style="color: green">numero 1</li>
-                        <li style="color: green">numero 2</li>
-                        <li style="color: green">numero 3</li>
-                        <li style="color: green">numero 4</li>
-                        <li style="color: green">numero 5</li>
-                        <li style="color: green">numero 6</li>
+                <li>
+                    <div>Paralelepipedos</div>
+                    <ul >
+                        <li class="paralelepipedos">numero 1</li>
+                        <li class="paralelepipedos">numero 2</li>
+                        <li class="paralelepipedos">numero 3</li>
+                        <li class="paralelepipedos">numero 4</li>
+                        <li class="paralelepipedos">numero 5</li>
+                        <li class="paralelepipedos">numero 6</li>
                     </ul>
                 </li>
             </main>
+
+            <p>e o Paralelepipedo <span class="paralelepipedos">numero 2</span> e o mais quadrado</p>
         </ul>
     </div>
 </body>
